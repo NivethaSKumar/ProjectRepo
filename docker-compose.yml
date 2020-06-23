@@ -1,0 +1,9 @@
+version: '3'
+services:
+  feedbackcontainer:
+    container_name: feedbackcontainer
+    image: nivethasiva/feedback-mgmt-sys-repo
+    build:
+      context: feedback_img
+    ports:
+      - "8120:8120"
